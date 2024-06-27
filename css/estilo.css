@@ -1,20 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
     font-family: "Helvetica Now Var";
 }
 
-img{
+img {
     width: 0;
     height: 0;
     object-fit: cover;
 }
 
-.work{
+.work {
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -24,3 +25,9 @@ img{
     overflow: hidden;
 }
 
+.overlay {
+    position: absolute;
+    top: 0%;
+    left: 15.25%;
+    width: 100%;
+}
