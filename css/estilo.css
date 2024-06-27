@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: "Helvetica Now Var";
+}
+
+img{
+    width: 0;
+    height: 0;
+    object-fit: cover;
+}
+
+.work{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    padding: 6em 4em;
+    transition: background-color 0.0s ease;
+    overflow: hidden;
+}
+
