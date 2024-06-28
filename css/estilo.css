@@ -10,24 +10,38 @@ body {
 }
 
 img {
-    width: 0;
-    height: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
 .work {
-    position: relative;
+  
     width: 100vw;
     height: 100vh;
-    background-color: gray;
-    padding: 6em 4em;
-    transition: background-color 0.0s ease;
-    overflow: hidden;
+    background: rgb(28, 28, 28);
 }
 
-.overlay {
+.overlay{
     position: absolute;
-    top: 0%;
-    left: 15.25%;
+    top:0%;
     width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10em;
+    transition: 1s;
+}
+
+h1{
+    color: white;
+    opacity: 0.5;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    text-align: center;
+    align-items: center;
 }
